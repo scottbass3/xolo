@@ -31,7 +31,7 @@ templ AlertsPage(vmodel AlertsPageVModel) {
 			<div class="mb-3.5">
 				@EventsTabs(vmodel.Org, "alerts", vmodel.View)
 			</div>
-			@common.FlashToast(vmodel.Success, i18n.T(ctx, "org.alerts.flash_subject"))
+			@common.FlashToastFeminine(vmodel.Success, i18n.T(ctx, "org.alerts.flash_subject"))
 			@common.Section() {
 				@table.Table() {
 					@table.Header() {

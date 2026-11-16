@@ -129,7 +129,7 @@ func AlertsPage(vmodel AlertsPageVModel) templ.Component {
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			templ_7745c5c3_Err = common.FlashToast(vmodel.Success, i18n.T(ctx, "org.alerts.flash_subject")).Render(ctx, templ_7745c5c3_Buffer)
+			templ_7745c5c3_Err = common.FlashToastFeminine(vmodel.Success, i18n.T(ctx, "org.alerts.flash_subject")).Render(ctx, templ_7745c5c3_Buffer)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

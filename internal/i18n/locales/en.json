@@ -152,6 +152,10 @@
   "common.flash.deleted_subject": "%s has been deleted.",
   "common.flash.revoked": "The item has been revoked.",
   "common.flash.revoked_subject": "%s has been revoked.",
+  "common.flash.created_subject_feminine": "%s has been created.",
+  "common.flash.saved_subject_feminine": "%s has been saved.",
+  "common.flash.deleted_subject_feminine": "%s has been deleted.",
+  "common.flash.revoked_subject_feminine": "%s has been revoked.",
   "common.flash.done": "The operation has been completed.",
 
   "dashboard.csv.organization": "Organization",

@@ -36,7 +36,7 @@ templ InvitesPage(vmodel InvitesPageVModel) {
 				}
 			}
 			if vmodel.NewURL == "" {
-				@common.FlashToast(vmodel.Success, i18n.T(ctx, "org.invites.flash_subject"))
+				@common.FlashToastFeminine(vmodel.Success, i18n.T(ctx, "org.invites.flash_subject"))
 			}
 			if len(vmodel.Invites) == 0 {
 				@common.EmptyState(common.EmptyStateProps{
